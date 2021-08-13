@@ -2,6 +2,8 @@
 
 This repository explains the installation of OSM and free5Gc in a virtual machine using VirtualBox and their configuration with simple example scenarios.
 
+***Configuration before OSM installation***
+
 1. Environment requirements
     * Ubuntu 18.04 LTS (64 bit) -- you can download the image from [here](https://releases.ubuntu.com/18.04.5/)
     * RAM: 16 GB (minimum)
@@ -55,3 +57,9 @@ This repository explains the installation of OSM and free5Gc in a virtual machin
     * `sudo apt-get update`
     * `lxc stop test`
     * ```lxc delete test```
+
+
+***OSM Installation***
+
+1. Make `install.sh` as executable: `chmod +x install_osm.sh`
+2. Install using: `./install_osm.sh --vimemu` (vimemu if want to install vim emulator, for all options check [here](https://osm.etsi.org/docs/user-guide/03-installing-osm.html#other-installer-options))
