@@ -17,3 +17,7 @@ This repository explains the installation of OSM and free5Gc in a virtual machin
 1. Add user to docker: `sudo usermod -aG docker $USER`
 2. Make it effect using: `newgrp docker`
 3. Check docker without sudo: `docker run hello-world`
+
+***Fixing Errors***
+
+1. Check for possible solutions, see [debug.md](https://github.com/samareshbera/osm-5gc/blob/main/debug.md)
