@@ -12,7 +12,7 @@ This repository explains the installation of OSM and free5Gc in a virtual machin
 2. Install using: `./install_osm.sh --vimemu` (vimemu if want to install vim emulator, for all options check [here](https://osm.etsi.org/docs/user-guide/03-installing-osm.html#other-installer-options))
 
 
-***After Successful Installation***
+***After Successful Installation of OSM***
 
 1. Add user to docker: `sudo usermod -aG docker $USER`
 2. Make it effect using: `newgrp docker`
