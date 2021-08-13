@@ -3,7 +3,7 @@
 This repository explains the installation of OSM and free5Gc in a virtual machine using VirtualBox and their configuration with simple example scenarios.
 
 ***Setting up the Environment***
-1. Set up the system and configure it, see [requirements.md](samareshbera/osm-5gc/requirements.md)
+1. Set up the system and configure it, see [requirements.md](https://github.com/samareshbera/osm-5gc/blob/main/requirements.md)
 
 ***OSM Installation***
 
