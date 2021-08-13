@@ -22,4 +22,4 @@ This repository explains the installation of OSM and free5Gc in a virtual machin
 
 ***Fixing Errors***
 
-1. Check for possible solutions, see [debug.md](https://github.com/samareshbera/osm-5gc/blob/main/debug.md)
+1. **OSM**: Check for possible solutions, see [debug.md](https://github.com/samareshbera/osm-5gc/blob/main/debug.md)
