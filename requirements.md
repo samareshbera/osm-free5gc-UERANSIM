@@ -48,6 +48,7 @@
       - `Do you want to setup an IPv6 subnet? No`
       - `name: lxdbr0`
       - `driver: zfs`
+    * Do `lxc list --dump` to make it effect (not sure whether to do it, but first time installation failed and no lxc was present using `lxc list`)
 
 
 8. Test LXD
