@@ -21,6 +21,10 @@ This repository explains the installation of OSM and free5Gc in a virtual machin
 5. For walkthrough example, check [here](https://osm.etsi.org/docs/vnf-onboarding-guidelines/00-introduction.html) and [here](https://osm.etsi.org/gitlab/vnf-onboarding/osm-packages) (written in SOL006 as well)
 
 
+***free5Gc Installation***
+1. TODO: [source](https://github.com/free5gc/free5gc/wiki)
+
+
 
 
 ***Troubleshooting***
