@@ -44,7 +44,7 @@
         
         ```lxc list```
     * Initialize LXD: ```lxd init```
-    * Follow the instructions (for name and storage type refer to [here](https://osm.etsi.org/wikipub/index.php/LXD_configuration_for_OSM_Release_THREE). Make sure to check the following:
+    * Follow the instructions (for name and storage type refer to [here](https://osm.etsi.org/wikipub/index.php/LXD_configuration_for_OSM_Release_THREE)). Make sure to check the following:
       - `Do you want to setup an IPv6 subnet? No`
       - `name: lxdbr0`
       - `driver: zfs`
