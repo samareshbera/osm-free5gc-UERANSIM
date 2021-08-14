@@ -17,7 +17,7 @@
     * Docker
       - Install curl: `sudo apt-get install curl`
       - `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
-      - `sudo add-apt-repository "deb [arch=amd64]\ https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" `
+      - `sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"`
 
     * Kubernetes
       - `curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -`
