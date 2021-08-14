@@ -53,7 +53,8 @@
 8. Test LXD
     * `lxc launch ubuntu:16.04 test`
     * `lxc exec test bash`
-    * `sudo apt-get update`
-    * `lxc stop test`
-    * ```lxc delete test```
+    * `sudo apt-get update` (check all things work)
+    * `exit` to logout from `test`
+    * `lxc stop test` to stop `test`
+    * ```lxc delete test``` to delete `test'
 
