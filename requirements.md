@@ -56,5 +56,5 @@
     * `sudo apt-get update` (check all things work)
     * `exit` to logout from `test`
     * `lxc stop test` to stop `test`
-    * ```lxc delete test``` to delete `test'
+    * ```lxc delete test``` to delete `test`
 
