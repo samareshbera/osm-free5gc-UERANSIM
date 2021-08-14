@@ -12,6 +12,7 @@
     * Add another network adapter: Host-Only, so you have 2 adapters: NAT + Host-Only
     * Start the Ubuntu machine (installation process will start)
     * Follow the installation instructions
+    * Go to `Ubuntu Software and Update` and change the server to `Main Server`
 
 3. Add certificates
     * Docker
