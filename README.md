@@ -32,6 +32,7 @@ This repository explains the installation of OSM and free5Gc in a virtual machin
   * `make` to build all functions (you may do it one by one, e.g., `make amf` for AMF only)
 
 3. Install UPF:
+  * `cd ~`
   * `git clone -b v0.2.1 https://github.com/free5gc/gtp5g.git`
   * `cd gtp5g`
   * `make`
