@@ -97,6 +97,15 @@
    * `sudo iptables -A FORWARD -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --set-mss 1400`
    * `sudo systemctl stop ufw` to stop `uncomplicated firewall`
 
+5. Add certificate and install `yarn` and `nodejs` for WebConsole (otherwise, `make webconsole` will fail):
+   * `sudo apt remove cmdtest`
+   * `sudo apt remove yarn`
+   * `curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
+   * `echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list`
+   * `sudo apt-get update`
+   * `sudo apt-get install -y nodejs yarn`
+
+
 
 
 
