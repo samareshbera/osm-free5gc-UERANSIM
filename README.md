@@ -1,4 +1,4 @@
-# osm-5gc
+# osm-5gc-UERANSIM
 
 This repository explains the installation of OSM and free5Gc in a virtual machine using VirtualBox and their configuration with simple example scenarios.
 
