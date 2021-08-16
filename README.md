@@ -61,9 +61,7 @@ This repository explains the installation of OSM and free5Gc in a virtual machin
 ***UERANSIM installation***
 
 1. `cd ~`
-
 2. Clone the UERANSIM: `git clone https://github.com/aligungr/UERANSIM`
-
 3. Install dependencies:
    * `sudo apt install make`
    * `sudo apt install gcc`
@@ -73,7 +71,6 @@ This repository explains the installation of OSM and free5Gc in a virtual machin
    * `sudo snap install cmake --classic`
 
 4. Go to repository: `cd ~/UERANSIM`
-
 5. `make`
 
 
