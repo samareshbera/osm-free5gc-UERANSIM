@@ -80,4 +80,22 @@
       - `echo 'export GO111MODULE=auto' >> ~/.bashrc`
       - `source ~/.bashrc`
 
+2. Install control-plane supporting packages
+   * `sudo apt-get update`
+   * `sudo apt-get install mangodb wget git`
+   * `sudo systemctl start mongodb`
+
+3. Install user-plane supporting packages
+   * `sudo apt-get update`
+   * `sudo apt-get install git gcc g++ cmake autoconf libtool pkg-config libmnl-dev libyaml-dev`
+   * `go get -u github.com/sirupsen/logrus`
+
+4. Linux host network settings
+   * `sudo sysctl -w net.ipv4.ip_forward=1`
+   * `sudo iptables -t nat -A POSTROUTING -o <dn_interface> -j MASQUERADE`
+   * `sudo iptables -A FORWARD -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --set-mss 1400`
+   * `sudo systemctl stop ufw`
+
+
+
 
