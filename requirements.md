@@ -5,6 +5,9 @@
     * RAM: 16 GB (minimum)
     * CPU: 2 (at least)
     * HDD: 200 GB (recommended)
+    * GCC: `gcc 7.3.0` for free5Gc
+    * `Go 1.14.4 linux/amd64` for free5Gc
+    * `kernel version 5.0.0-23-generic` for free5Gc (required for the UPF element)
 
 2. VirtualBox configuration and Ubuntu installation
     * Configure VirtualBox with a machine name -- VirtualBox software can be downloaded from [here](https://www.virtualbox.org/wiki/Downloads)
