@@ -58,6 +58,25 @@ This repository explains the installation of OSM and free5Gc in a virtual machin
   * Password: `free5gc`
 
 
+***UERANSIM installation***
+
+1. `cd ~`
+
+2. Clone the UERANSIM: `git clone https://github.com/aligungr/UERANSIM`
+
+3. Install dependencies:
+   * `sudo apt install make`
+   * `sudo apt install gcc`
+   * `sudo apt install g++`
+   * `sudo apt install libsctp-dev lksctp-tools`
+   * `sudo apt install iproute2`
+   * `sudo snap install cmake --classic`
+
+4. Go to repository: `cd ~/UERANSIM`
+
+5. `make`
+
+
 ***Troubleshooting***
 
 1. **OSM**: Check for possible solutions, see [debug_osm.md](https://github.com/samareshbera/osm-5gc/blob/main/debug_osm.md)
