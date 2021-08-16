@@ -47,7 +47,10 @@ This repository explains the installation of OSM and free5Gc in a virtual machin
 
 5. Start the WebConsole:
   * `cd ~/free5gc/webconsole/bin`
-  * `./webconsole`
+  * `./webconsole` (web server is started and listening at port 5000)
+  * Open browser and access `<your_ip:5000>`
+  * Username: `admin`
+  * Password: `free5gc`
 
 
 ***Troubleshooting***
