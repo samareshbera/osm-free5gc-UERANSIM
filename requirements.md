@@ -63,3 +63,21 @@
     * `lxc stop test` to stop `test`
     * ```lxc delete test``` to delete `test`
 
+
+***Configuration before free5Gc installation***
+
+1. Check the hardware/software requirements
+   * Check Linux kernel version: `uname -r` (it must be `5.0.0-23-generic` or above)
+   * Check GO verson: `go version` (it must be Go 1.14.4 for free5Gc)
+   * Install Go using:
+      - `wget https://dl.google.com/go/go1.14.4.linux-amd64.tar.gz`
+      - `sudo tar -C /usr/local -zxvf go1.14.4.linux-amd64.tar.gz`
+      - `mkdir -p ~/go/{bin,pkg,src}`
+      # The following assume that your shell is bash
+      - `echo 'export GOPATH=$HOME/go' >> ~/.bashrc`
+      - `echo 'export GOROOT=/usr/local/go' >> ~/.bashrc`
+      - `echo 'export PATH=$PATH:$GOPATH/bin:$GOROOT/bin' >> ~/.bashrc`
+      - `echo 'export GO111MODULE=auto' >> ~/.bashrc`
+      - `source ~/.bashrc`
+
+
