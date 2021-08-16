@@ -83,7 +83,7 @@
 
 2. Install control-plane supporting packages
    * `sudo apt-get update`
-   * `sudo apt-get install mangodb wget git`
+   * `sudo apt-get install mongodb wget git`
    * `sudo systemctl start mongodb`
 
 3. Install user-plane supporting packages
