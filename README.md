@@ -27,15 +27,16 @@ This repository explains the installation of OSM and free5Gc in a virtual machin
   * `git clone --recursive -b v3.0.5 -j ``nproc`` https://github.com/free5gc/free5gc.git` (use single \tilde for nproc) 
   * `cd free5gc`
 
-2. Install UPF:
+2. Compile the network function services in `free5gc`:
+  * `cd ~/free5gc`
+  * `make` to build all functions (you may do it one by one, e.g., `make amf` for AMF only)
+
+3. Install UPF:
   * `git clone -b v0.2.1 https://github.com/free5gc/gtp5g.git`
   * `cd gtp5g`
   * `make`
   * `sudo make install`
-
-3. Compile the network function services in `free5gc`:
-  * `cd ~/free5gc`
-  * `make` to build all functions (you may do it one by one, e.g., `make amf` for AMF only)
+  * Do `make upf` if not done for all network functions with `make` in Step 2
 
 4. Install WebConsole of `free5gc`:
   * `cd ~/free5gc/webconsole`
