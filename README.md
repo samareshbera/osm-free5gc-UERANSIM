@@ -24,7 +24,7 @@ This repository explains the installation of OSM and free5Gc in a virtual machin
 ***free5Gc Installation***
 1. Install latest stable build of free5Gc (version `v3.0.5)`:
   * `cd ~`
-  * `git clone --recursive -b v3.0.5 -j ``nproc`` https://github.com/free5gc/free5gc.git`
+  * `git clone --recursive -b v3.0.5 -j ``nproc`` https://github.com/free5gc/free5gc.git` (use single ` ` for nproc) 
   * `cd free5gc`
 
 2. Install UPF:
