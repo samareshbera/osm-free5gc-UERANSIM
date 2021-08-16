@@ -45,6 +45,10 @@ This repository explains the installation of OSM and free5Gc in a virtual machin
   * `cd ~/free5gc`
   * `make webconsole`
 
+5. Start the WebConsole:
+  * `cd ~/free5gc/webconsole/bin`
+  * `./webconsole`
+
 
 ***Troubleshooting***
 
