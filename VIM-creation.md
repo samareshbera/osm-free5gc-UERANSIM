@@ -36,3 +36,11 @@
 
 3. Issue: `[ERROR] /opt/stack/devstack/functions-common:691 git call failed: [git clone https://opendev.org/openstack/keystone.git /opt/stack/keystone --branch master]`
     * Solution: add this `GIT_BASE=${GIT_BASE:-https://git.openstack.org}` to `local.conf` under `Devstack` folder: to use the HTTPS protocol instead of the Git protocol!
+
+4. Issue: 
+   `Errors were encountered while processing:
+    python3-rtslib-fb
+    targetcli-fb
+    E: Sub-process /usr/bin/dpkg returned an error code (1)`
+    
+    https://askubuntu.com/questions/1334619/failed-to-start-rtslib-fb-targetctl-service
