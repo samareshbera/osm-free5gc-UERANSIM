@@ -49,3 +49,5 @@
 
 6. Issue: `/opt/stack/devstack/files/etcd-v3.3.12-linux-amd64.tar.gz: failed sha256sum: warning: 1 computed checksum did not match`: Solution: `disable_service etcd3` add this to `local.conf`
 
+7. Issue: `pypowervm ERROR: No matching distribution found for futures>=3.0; python_version == "3.6"` =>  `pip install --upgrade pip` and `pip install --upgrade pipenv`
+
