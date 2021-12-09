@@ -16,14 +16,14 @@
     
     * `nano local.conf`: add the following
     
-            `[[local|localrc]]
+            [[local|localrc]]
             # Password for KeyStone, Database, RabbitMQ and Service
             ADMIN_PASSWORD=your_password
             DATABASE_PASSWORD=$ADMIN_PASSWORD
             RABBIT_PASSWORD=$ADMIN_PASSWORD
             SERVICE_PASSWORD=$ADMIN_PASSWORD
             # Host IP - get your Server/VM IP address from ip addr command
-            HOST_IP=your_ip`
+            HOST_IP=your_ip
     * `./stack.sh`
 
 
