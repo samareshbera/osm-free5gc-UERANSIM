@@ -44,3 +44,8 @@
     E: Sub-process /usr/bin/dpkg returned an error code (1)`
     
     https://askubuntu.com/questions/1334619/failed-to-start-rtslib-fb-targetctl-service
+    
+5. `ERROR: Cannot uninstall'httplib2'. It is a distutils installed project and thus we cannot accurately determine which files belong`: Solution: `sudo -H pip install --ignore-installed -U httplib2`
+
+6. Issue: `/opt/stack/devstack/files/etcd-v3.3.12-linux-amd64.tar.gz: failed sha256sum: warning: 1 computed checksum did not match`: Solution: `disable_service etcd3` add this to `local.conf`
+
