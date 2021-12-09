@@ -24,6 +24,9 @@
             SERVICE_PASSWORD=$ADMIN_PASSWORD
             # Host IP - get your Server/VM IP address from ip addr command
             HOST_IP=your_ip
+            disable_service etcd3   # error with this if enabled
+    
+    * `echo "FORCE=yes" > localrc`
     * `./stack.sh`
 
 
