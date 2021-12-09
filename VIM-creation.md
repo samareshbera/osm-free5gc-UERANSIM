@@ -33,3 +33,6 @@
 
 2. Issue: permission denied `PermissionError: [Errno 13] Permission denied: '/opt/stack/.cache/pip/wheels/25/af/b8/******`
     * Solution: associate the stack user with the stack directory: `sudo chown -R stack:stack /opt/stack`
+
+3. Issue: `[ERROR] /opt/stack/devstack/functions-common:691 git call failed: [git clone https://opendev.org/openstack/keystone.git /opt/stack/keystone --branch master]`
+    * Solution: add this `GIT_BASE=${GIT_BASE:-https://git.openstack.org}` to `local.conf` under `Devstack` folder: to use the HTTPS protocol instead of the Git protocol!
