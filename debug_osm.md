@@ -40,11 +40,11 @@ Errors related to OSM can be troubleshooted from [here](https://osm.etsi.org/wik
 4. If you want to uninstall:
    * `./install.sh --uninstall`
    * Remove all Kubernetes related configuration:
-   
+      `
       kubeadm reset
       sudo apt-get purge kubeadm kubectl kubelet kubernetes-cni kube*   
       sudo apt-get autoremove  
-      sudo rm -rf ~/.kube
+      sudo rm -rf ~/.kube`
       
    * `sudo rm -rf /var/lib/etcd` to dela with `Some fatal errors occurred: `ERROR DirAvailable--var-lib-etcd]: /var/lib/etcd is not empty`
 
