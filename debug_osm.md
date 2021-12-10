@@ -48,3 +48,6 @@ Errors related to OSM can be troubleshooted from [here](https://osm.etsi.org/wik
       
    * `sudo rm -rf /var/lib/etcd` to dela with `Some fatal errors occurred: `ERROR DirAvailable--var-lib-etcd]: /var/lib/etcd is not empty`
 
+5. Error: `k8scloud` already exists
+   * Sometime `k8scloud` is not removed just by uninstalling OSM. Need to remove the juju cloud using `juju remove-cloud k8scloud`
+
