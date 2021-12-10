@@ -51,3 +51,11 @@
 
 7. Issue: `pypowervm ERROR: No matching distribution found for futures>=3.0; python_version == "3.6"` =>  `pip install --upgrade pip` and `pip install --upgrade pipenv`
 
+
+
+
+**OpenStack installation -- single machine Ubuntu**
+
+1. Follow steps: https://ubuntu.com/openstack/install
+2. 
+
