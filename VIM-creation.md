@@ -60,3 +60,5 @@
 1. Follow steps: https://ubuntu.com/openstack/install
 2. Error on login GUI: `FileNotFoundError at /auth/login/ openstack` => Solution: `sudo systemctl restart snap.microstack.horizon-uwsgi`
 
+
+1. Access the tokens openstack: https://docs.openstack.org/keystone/pike/api_curl_examples.html
