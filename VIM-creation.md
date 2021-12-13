@@ -51,6 +51,7 @@
 
 7. Issue: `pypowervm ERROR: No matching distribution found for futures>=3.0; python_version == "3.6"` =>  `pip install --upgrade pip` and `pip install --upgrade pipenv`
 
+8. Enables password-less ssh: https://www.cyberciti.biz/faq/ubuntu-18-04-setup-ssh-public-key-authentication/ 
 
 
 
