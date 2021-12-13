@@ -57,5 +57,5 @@
 **OpenStack installation -- single machine Ubuntu**
 
 1. Follow steps: https://ubuntu.com/openstack/install
-2. 
+2. Error on login GUI: `FileNotFoundError at /auth/login/ openstack` => Solution: `sudo systemctl restart snap.microstack.horizon-uwsgi`
 
