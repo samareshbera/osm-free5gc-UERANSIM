@@ -51,3 +51,5 @@ Errors related to OSM can be troubleshooted from [here](https://osm.etsi.org/wik
 5. Error: `k8scloud` already exists
    * Sometime `k8scloud` is not removed just by uninstalling OSM. Need to remove the juju cloud using `juju remove-cloud k8scloud`
 
+6. Add ip route: `sudo ip route add 172.16.0.0/24 via 192.168.122.1 dev ens3`: `172.16.0.0` is the target, `192.***` is the gateway of the source machine (router address)
+
