@@ -21,7 +21,7 @@ This repository explains the installation of OSM, free5Gc, and UERANSIM in a vir
 5. For walkthrough example, check [here](https://osm.etsi.org/docs/vnf-onboarding-guidelines/00-introduction.html) and [here](https://osm.etsi.org/gitlab/vnf-onboarding/osm-packages) (written in SOL006 as well)
 6. Execute the bash of a container: `kubectl exec -it <container_name> -n <namespace> -- bash`
    * Ping test: `ping command not found`: `apt-get install iputils-ping`
-
+7. `kubectl` commands: https://cloud.google.com/migrate/anthos/docs/troubleshooting/executing-shell-commands
 
 ***free5Gc Installation***
 1. Install latest stable build of free5Gc (version `v3.0.5)`:
