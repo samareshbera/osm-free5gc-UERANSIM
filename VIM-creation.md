@@ -2,7 +2,7 @@
 https://gist.github.com/meetmatt/da9e7364dec04a43465e20c430fb58df
 
 
-
+1. Issues with microstack api: `requires authentication`: `sudo snap set microstack config.credentials.keystone-password=<your password>`
 
 
 **Openstack as Virtual Infrastructure Manager (VIM)**
