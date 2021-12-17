@@ -1,3 +1,10 @@
+**Good tutoral on openstack**
+https://gist.github.com/meetmatt/da9e7364dec04a43465e20c430fb58df
+
+
+
+
+
 **Openstack as Virtual Infrastructure Manager (VIM)**
 
 1. Openstack installation:
