@@ -69,3 +69,6 @@ https://gist.github.com/meetmatt/da9e7364dec04a43465e20c430fb58df
 
 
 1. Access the tokens openstack: https://docs.openstack.org/keystone/pike/api_curl_examples.html
+
+
+3. Use openstack keystone: https://www.oreilly.com/content/lets-use-keystone/
