@@ -72,3 +72,5 @@ https://gist.github.com/meetmatt/da9e7364dec04a43465e20c430fb58df
 
 
 3. Use openstack keystone: https://www.oreilly.com/content/lets-use-keystone/
+
+4. Error: `microstack command not found` on `microstack init --auto --control`: do `PATH=/snap/bin:$PATH /snap/bin/microstack.init --auto --control`
