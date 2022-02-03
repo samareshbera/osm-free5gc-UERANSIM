@@ -10,6 +10,7 @@ This repository explains the installation of OSM, free5Gc, and UERANSIM in a vir
 
 1. Make `install.sh` as executable: `chmod +x install_osm.sh`
 2. Install using: `./install_osm.sh --vimemu` (vimemu if want to install vim emulator, for all options check [here](https://osm.etsi.org/docs/user-guide/03-installing-osm.html#other-installer-options))
+3. For Charmed OSM Installation: https://discourse.charmhub.io/t/first-steps-with-charmed-osm/1533
 
 
 ***After Successful Installation of OSM***
